@@ -506,7 +506,7 @@ __help__ = """
 Gbans, also known as global bans, are used by the bot owners to ban spammers across all groups. This helps protect \
 you and your groups by removing spam flooders as quickly as possible. They can be disabled for you group by calling \
 /gbanstat
-Note: You can appeal gbans or ask gbans at @YorktownEagleUnion
+Note: You can appeal gbans or ask gbans at @MizuharaRobotSupport
 
 Kigyo also integrates @Spamwatch API into gbans to remove Spammers as much as possible from your chatroom!
 *What is SpamWatch?*
