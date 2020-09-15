@@ -43,14 +43,12 @@ I am an Anime themed group management bot with some fun extras [;)](https://tele
 
 You can find the list of available commands with /help.
 
-[Kigyō's Repo](https://github.com/Dank-del/EnterpriseALRobot) 
 
-The support group chat is at @YorktownEagleUnion
+
+The support group chat is at @MizuharaRobotSupport
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a part of *Eagle Union*
 Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
@@ -170,7 +168,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add Kigyō to your group",
+                                text="Add Mizuhara to your group",
                                 url="t.me/{}?startgroup=true".format(bot.username),
                             )
                         ]
@@ -178,7 +176,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 ),
             )
     else:
-        update.effective_message.reply_text("Hi, I'm Kigyo.")
+        update.effective_message.reply_text("Hi, I'm Mizuhara.")
 
 
 # for test purposes
