@@ -416,7 +416,7 @@ def check_and_ban(update, user_id, should_message=True):
             update.effective_message.reply_text(
                 "Alert: This user is globally banned.\n"
                 "*bans them from here*.\n"
-                "Appeal chat: @YorktownEagleUnion"
+              
             )
 
 
@@ -485,7 +485,7 @@ def __user_info__(user_id):
         user = sql.get_gbanned_user(user_id)
         if user.reason:
             text += f"\n<b>Reason:</b> {html.escape(user.reason)}"
-        text += "\n<b>Appeal Chat:</b> @YorktownEagleUnion"
+        text += "\n<b>Appeal Chat:</b> "
     else:
         text = text.format("No")
     return text
